@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata & Camping Curug Leles Majalengka</title>
+    <!-- Hubungkan ke CSS Murni -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Font Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigasi -->
+    <header class="navbar">
+        <div class="container navbar-container">
+            <div class="logo">
+                <div class="logo-icon"><i class="fa-solid fa-water"></i></div>
+                <div class="logo-text">
+                    <span class="brand-title">Curug Leles</span>
+                    <span class="brand-sub">Majalengka</span>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="#beranda">Beranda</a>
+                <a href="#tiket">Tiket Masuk</a>
+                <a href="#galeri">Galeri</a>
+                <a href="#paket">Paket Camping</a>
+                <a href="#acara-khusus">Photoshoot & Acara</a>
+                <a href="#video">Video</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+            <a href="#kontak" class="btn btn-primary btn-nav"><i class="fa-solid fa-ticket"></i> Pesan Tiket</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero-section">
+        <div class="hero-overlay"></div>
+        <!-- Tambahkan foto hero di sini jika ada -->
+        <img src="images/utama.jpg" alt="Hero Curug Leles" class="hero-img">
+        
+        <div class="container hero-content">
+            <span class="badge">
+                <i class="fa-solid fa-location-dot"></i> Sindangwangi, Majalengka
+            </span>
+            <h1>Keindahan Tersembunyi <span>Curug Leles Majalengka</span></h1>
+            <p>Rasakan kesegaran air jernih pegunungan, asrinya suasana alam hijau, serta pengalaman wisata & camping terbaik!</p>
+            <div class="hero-buttons">
+                <a href="#paket" class="btn btn-primary"><i class="fa-solid fa-compass"></i> Lihat Paket Camping</a>
+                <a href="#tiket" class="btn btn-secondary"><i class="fa-solid fa-ticket"></i> Harga Tiket</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Tiket Masuk -->
+    <section id="tiket" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Tarif Resmi</span>
+                <h2>Harga Tiket Masuk Wisata</h2>
+                <p>Daftar harga tiket masuk area wisata dan bumi perkemahan Curug Leles.</p>
+            </div>
+            <div class="grid grid-3">
+                <div class="card card-ticket">
+                    <div class="ticket-icon"><i class="fa-solid fa-sun"></i></div>
+                    <h3>Tiket Wisata Weekday</h3>
+                    <p class="ticket-sub">Senin - Jumat</p>
+                    <div class="price">Rp 17.500 <span>/ orang</span></div>
+                </div>
+                <div class="card card-ticket">
+                    <div class="ticket-icon"><i class="fa-solid fa-calendar-day"></i></div>
+                    <h3>Tiket Wisata Weekend</h3>
+                    <p class="ticket-sub">Sabtu & Minggu</p>
+                    <div class="price">Rp 22.500 <span>/ orang</span></div>
+                </div>
+                <div class="card card-ticket">
+                    <div class="ticket-icon"><i class="fa-solid fa-campground"></i></div>
+                    <h3>Tiket Camping Regular</h3>
+                    <p class="ticket-sub">Bumi Perkemahan</p>
+                    <div class="price">Rp 35.000 <span>/ orang</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Galeri -->
+    <section id="galeri" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Dokumentasi</span>
+                <h2>Galeri Kegiatan Wisata</h2>
+                <p>Suasana alam asri, area aliran sungai, dan keindahan titik air terjun Curug Leles.</p>
+            </div>
+            <div class="grid grid-4">
+                <div class="gallery-box">
+                    <div class="placeholder-text"><i class="fa-regular fa-image"></i><span>Foto 1 (Air Terjun)</span></div>
+                    <img src="images/gallery1.jpg" alt="Foto 1">
+                </div>
+                <div class="gallery-box">
+                    <div class="placeholder-text"><i class="fa-regular fa-image"></i><span>Foto 2 (River Trekking)</span></div>
+                    <img src="images/gallery2.jpg" alt="Foto 2">
+                </div>
+                <div class="gallery-box">
+                    <div class="placeholder-text"><i class="fa-regular fa-image"></i><span>Foto 3 (Area Camp)</span></div>
+                    <img src="images/gallery3.jpg" alt="Foto 3">
+                </div>
+                <div class="gallery-box">
+                    <div class="placeholder-text"><i class="fa-regular fa-image"></i><span>Foto 4 (Spot Foto)</span></div>
+                    <img src="images/gallery4.jpg" alt="Foto 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Paket Camping -->
+    <section id="paket" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Pilihan Terbaik</span>
+                <h2>Daftar Paket Camping</h2>
+                <p>Fasilitas sewa tenda dan perlengkapan camping lengkap untuk liburan tanpa ribet.</p>
+            </div>
+            <div class="grid grid-3">
+                <!-- Paket 1 -->
+                <div class="card card-package">
+                    <div class="package-img-box">
+                        <div class="placeholder-text"><i class="fa-regular fa-image"></i><span>Foto Paket Hemat</span></div>
+                        <img src="images/Camp1.jpg" alt="Paket Hemat">
+                        <span class="badge-card">Hemat</span>
+                    </div>
+                    <div class="package-body">
+                        <h3>Paket Hemat Camp</h3>
+                        <p class="package-desc">Untuk 2 orang (2D1N) lengkap dengan tenda dan perlengkapan tidur.</p>
+                        <ul class="facility-list">
+                            <li><i class="fa-solid fa-check"></i> 2 Tiket Masuk Camp</li>
+                            <li><i class="fa-solid fa-check"></i> Tenda 4p + Palet & Matras</li>
+                            <li><i class="fa-solid fa-check"></i> 2 Bantal, 2 SB, 2 Wifi Voucher</li>
+                            <li><i class="fa-solid fa-check"></i> Kayu Bakar & Listrik</li>
+                        </ul>
+                    </div>
+                    <div class="package-footer">
+                        <div class="package-price">Rp 250.000 <span>/ tenda</span></div>
+                        <a href="#kontak" class="btn btn-primary btn-sm">Pesan</a>
+                    </div>
+                </div>
+
+                <!-- Paket 2 -->
+                <div class="card card-package package-featured">
+                    <div class="package-img-box">
+                        <div class="placeholder-text"><i class="fa-regular fa-image"></i><span>Foto Family Camp</span></div>
+                        <img src="images/Camp2.jpg" alt="Paket Family">
+                        <span class="badge-card badge-dark">Favorit</span>
+                    </div>
+                    <div class="package-body">
+                        <h3>Paket Family Camp</h3>
+                        <p class="package-desc">Ideal untuk keluarga kecil (2 Dewasa + Anak) dengan fasilitas nyaman.</p>
+                        <ul class="facility-list">
+                            <li><i class="fa-solid fa-check"></i> Tiket 2 Dewasa + Anak</li>
+                            <li><i class="fa-solid fa-check"></i> Tenda 4p, Flysheet, Matras</li>
+                            <li><i class="fa-solid fa-check"></i> 2 Bad, 2 Bantal, 2 SB</li>
+                            <li><i class="fa-solid fa-check"></i> Lampu Tenda, Terminal Listrik</li>
+                        </ul>
+                    </div>
+                    <div class="package-footer">
+                        <div class="package-price">Rp 350.000 <span>/ tenda</span></div>
+                        <a href="#kontak" class="btn btn-primary btn-sm">Pesan</a>
+                    </div>
+                </div>
+
+                <!-- Paket 3 -->
+                <div class="card card-package">
+                    <div class="package-img-box">
+                        <div class="placeholder-text"><i class="fa-regular fa-image"></i><span>Foto Family Camp Xtra</span></div>
+                        <img src="images/Camp3.jpg" alt="Paket Xtra">
+                        <span class="badge-card badge-gold">Sisi Waloengan</span>
+                    </div>
+                    <div class="package-body">
+                        <h3>Camping Asik / Xtra</h3>
+                        <p class="package-desc">Fasilitas komplit dengan peralatan masak, kasur, alat makan, dan spot terbaik.</p>
+                        <ul class="facility-list">
+                            <li><i class="fa-solid fa-check"></i> 3 Tiket Camp & Free Parkir</li>
+                            <li><i class="fa-solid fa-check"></i> Tenda Altrex, Kasur, Bantal, Selimut</li>
+                            <li><i class="fa-solid fa-check"></i> Kompor, Gas, Meja, Kursi Lipat</li>
+                            <li><i class="fa-solid fa-check"></i> Listrik, Lampu, Wifi, Asuransi</li>
+                        </ul>
+                    </div>
+                    <div class="package-footer">
+                        <div class="package-price">Rp 675.000 <span>/ paket</span></div>
+                        <a href="#kontak" class="btn btn-primary btn-sm">Pesan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Photoshoot & Acara Rombongan -->
+    <section id="acara-khusus" class="section section-dark">
+        <div class="container">
+            <div class="section-header text-white">
+                <span class="section-tag tag-green">Layanan Rombongan</span>
+                <h2>Sesi Pemotretan (Photoshoot) & Kemah Angkatan</h2>
+                <p>Izin lokasi khusus untuk kebutuhan foto & perkemahan skala besar.</p>
+            </div>
+            <div class="grid grid-2">
+                <div class="card card-dark">
+                    <div class="card-icon"><i class="fa-solid fa-camera-retro"></i></div>
+                    <h3>Sesi Pemotretan (Photoshoot)</h3>
+                    <p>Lokasi outdoor estetik dengan pemandangan air terjun, sungai, dan hutan leles yang cocok untuk berbagai kebutuhan foto.</p>
+                    <ul class="facility-list list-light">
+                        <li><i class="fa-solid fa-check"></i> Foto Yearbook, Prewedding, & Company Profile</li>
+                        <li><i class="fa-solid fa-check"></i> Foto Organisasi, Komunitas, & Brand Campaign</li>
+                        <li><i class="fa-solid fa-check"></i> Izin Khusus, Akses Drone & Ruang Ganti</li>
+                    </ul>
+                    <a href="https://wa.me/6281324082969?text=Halo%20Admin,%20saya%20mau%20tanya%20informasi%20Photoshoot" target="_blank" class="btn btn-outline-light"><i class="fa-brands fa-whatsapp"></i> Tanya Info Photoshoot</a>
+                </div>
+                <div class="card card-dark">
+                    <div class="card-icon"><i class="fa-solid fa-campground"></i></div>
+                    <h3>Kemah / Makrab Satu Angkatan (3D2N)</h3>
+                    <p>Kapasitas lapangan luas yang menampung puluhan hingga ratusan peserta perkemahan sekolah/kampus.</p>
+                    <ul class="facility-list list-light">
+                        <li><i class="fa-solid fa-check"></i> Blokir Area Khusus Privasi Rombongan</li>
+                        <li><i class="fa-solid fa-check"></i> Penyewaan Puluhan Tenda & Alat Dapur</li>
+                        <li><i class="fa-solid fa-check"></i> Fasilitas Penerangan, Air, & Toilet Bersih</li>
+                    </ul>
+                    <a href="https://wa.me/6281324082969?text=Halo%20Admin,%20saya%20mau%20tanya%20informasi%20Kemah%20Angkatan" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Reservasi Kemah Angkatan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Video Embed YouTube -->
+    <section id="video" class="section bg-dark text-white">
+        <div class="container">
+            <div class="section-header text-white">
+                <span class="section-tag tag-green">Video Profil</span>
+                <h2>Suasana Suasana Langsung di Curug Leles</h2>
+                <p>Tonton dokumentasi keindahan alam Curug Leles Majalengka.</p>
+            </div>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/fah1X03sDhs" 
+                    title="Wisata Curug Leles Majalengka" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Kontak & Google Maps -->
+    <section id="kontak" class="section">
+        <div class="container">
+            <div class="grid grid-2 items-center">
+                <!-- Info Kontak & Maps -->
+                <div class="contact-info">
+                    <span class="section-tag">Hubungi Kami</span>
+                    <h2>Siap Berlibur ke Curug Leles?</h2>
+                    <p>Informasi lebih lanjut, reservasi paket, atau izin lokasi acara rombongan dapat menghubungi kontak di bawah ini.</p>
+                    
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4>Lokasi Wisata</h4>
+                                <p>Bumi Perkemahan Curug Leles, Desa Padaherang, Kec. Sindangwangi, Majalengka</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon icon-wa"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div>
+                                <h4>WhatsApp / Telepon</h4>
+                                <a href="https://wa.me/6281324082969" target="_blank">0813-2408-2969 / 0838-2679-2780</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon icon-ig"><i class="fa-brands fa-instagram"></i></div>
+                            <div>
+                                <h4>Instagram Resmi</h4>
+                                <a href="https://instagram.com/buperleles" target="_blank">@buperleles & @wisata_curug_leles</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon icon-email"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:atamnitibaya@gmail.com" target="_blank">atamnitibaya@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Embed Google Maps -->
+                    <div class="maps-box">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4936.693906891199!2d108.38875357499542!3d-6.80199199319543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f219a16c7466b%3A0x2bb5e9ad40060c49!2sBumi%20Perkemahan%20Curug%20Leles!5e1!3m2!1sid!2sid!4v1791845735548!5m2!1sid!2sid" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div> 
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="logo">
+                <div class="logo-icon"><i class="fa-solid fa-water"></i></div>
+                <span class="brand-title text-white">Curug Leles Majalengka</span>
+            </div>
+            <p>&copy; 2026 Dashboard Wisata Curug Leles Majalengka. Dibuat dengan HTML & CSS Murni.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
